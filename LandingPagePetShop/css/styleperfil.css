@@ -1,0 +1,38 @@
+page{
+    grid-template-areas: "header", "body", "footer";  
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+#head {
+    width:100%;
+    background: #90BE6D;
+    float: left;
+    margin-bottom: 13px;
+    height: 150px;
+    grid-area: "header";
+}
+.logo h1{
+    width:100px;
+    height:100px;
+    background:url(../img/petshop.png) no-repeat;
+    margin-top:20px;
+    margin-left:40px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .linkssection{
+    background: #90BE6D;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: x-large;
+    color: black;
+    margin-top: 30px;
+  }

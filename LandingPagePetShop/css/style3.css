@@ -1,0 +1,90 @@
+page{
+    grid-template-areas: "header", "body", "footer";  
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    background: url(../img/background.jpg) no-repeat;
+}
+
+#head {
+    width:100%;
+    background: #90BE6D;
+    float: left;
+    margin-bottom: 13px;
+    height: 150px;
+    grid-area: "header";
+}
+body{
+    grid-area: "body";
+    background: url(../img/background.jpg) no-repeat;
+}
+legend{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.form-cadastro {
+    width: 100%;
+    display:flex;
+    height: 700px;
+    margin-top: 300px;
+    margin-left:600px;
+    background-color: rgba(228, 250, 168, 0.635);
+    border-radius: 30px;
+    width:400px;
+
+}
+.logo h1{
+    width:100px;
+    height:100px;
+    background:url(../img/petshop.png) no-repeat;
+    margin-top:20px;
+    margin-left:40px;
+
+}
+.field1{
+    border-radius: 50px;
+}
+.seunome{
+    margin-bottom:30px;
+    margin-left: 20px;
+}
+.nomedoanimal{
+    margin-bottom:30px;
+    margin-left: 20px;
+}
+.tipodeanimal{
+    margin-bottom:30px;
+    margin-left: 20px;
+}
+.idadedoanimal{
+    margin-bottom:30px;
+    margin-left: 20px;
+}
+.vocee{
+    margin-bottom:30px;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+
+.videosefoto{
+    margin-bottom:30px;
+    margin-left: 20px;
+}
+#enviar{
+    background: rgb(63, 191, 89);
+    color:white;
+    border:none;
+    cursor:pointer;
+    padding: 10px 20px;
+    
+}
+#buttonbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
